@@ -315,14 +315,12 @@ body {
 }
 
 .car-image {
-  cursor: zoom-in;
+  cursor: pointer;
   height: 200px;
   object-fit: cover;
   border-bottom: 2px solid #e9ecef;
 }
-.car-image:active {
-  cursor: zoom-out;
-}
+
 /* Filtros */
 .filter-panel {
   background: white;
