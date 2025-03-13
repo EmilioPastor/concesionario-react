@@ -8,62 +8,78 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ### Presentación del Proyecto: Concesionario de Coches
+  # 1. Objetivo del Proyecto
+Desarrollar una plataforma web para gestionar un concesionario de vehículos, permitiendo:
+Visualizar y filtrar coches.
+Gestionar favoritos.
+Realizar reservas.
+Analizar datos con gráficos.
+Administrar el inventario (CRUD).
+2. Tecnologías Utilizadas
+Frontend:
+React.js + Vite
+React Router
+React-Bootstrap
+Chart.js / Recharts
+Context API (Gestión de estado)
+Backend:
+API REST en Render (Node.js/Express)
+Base de datos (MongoDB/PostgreSQL)
+Otros:
+Git/GitHub (Control de versiones)
+Postman (Pruebas de API)
+3. Requisitos Cumplidos
+Requisito
+Implementación
+Conexión a API
+Consumo de endpoints para obtener datos de coches.
+Zona de Favoritos
+Contexto para guardar favoritos temporalmente.
+Eventos de Usuario
+Hover, clics, formularios interactivos.
+Gráficos
+Gráficos de barras y pastel con datos dinámicos.
+Formulario de Subida
+Formulario para añadir coches, integrado con la API.
+Diseño Responsive
+Uso de Bootstrap para adaptación a móviles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Funcionalidades Clave
+Catálogo Interactivo:
+Filtros por marca, precio, combustible.
+Ordenación por diferentes criterios.
+Gestión de Favoritos:
+Añadir/eliminar sin necesidad de login.
+Sistema de Reservas:
+Flujo de 3 pasos (Datos, Pago, Confirmación).
+Panel de Estadísticas:
+Visualización de datos con gráficos interactivos.
+Administración:
+Añadir nuevos vehículos mediante formulario.
+5. Desafíos y Soluciones
+Desafío: Sincronización de datos en tiempo real.
+Solución: Uso de React Query para revalidar datos.
+Desafío: Validación de formularios complejos.
+Solución: Integración con Formik y Yup.
+Desafío: Manejo de estados globales.
+Solución: Context API para favoritos y reservas.
+6. Próximas Mejoras
+Autenticación de Usuarios:
+Login/registro con JWT.
+Panel de Administración:
+Editar/eliminar coches existentes.
+Notificaciones en Tiempo Real:
+WebSockets para actualizaciones.
+Despliegue en Producción:
+Configurar CI/CD con GitHub Actions.
+7. Demo en Vivo
+URL de la Aplicación: https://tudominio.com
+Repositorio GitHub: https://github.com/tuusuario/concesionario
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
