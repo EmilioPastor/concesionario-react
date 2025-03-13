@@ -4,8 +4,8 @@ const HeroSection = () => {
   return (
     <section className="hero-section">
       <video autoPlay muted loop playsInline className="hero-video">
-        <source src="/videos/hero-video.mp4" type="video/mp4" />
-        <img src="/imagenes/hero-fallback.jpg" alt="Vehículos de lujo" />
+        <source src="/videos/mercedes.mp4" type="video/mp4" />
+        <img src="/imagenes/mercedes.jpg" alt="Vehículos de lujo" />
         Tu navegador no soporta vídeos HTML5.
       </video>
       <div className="hero-content">
