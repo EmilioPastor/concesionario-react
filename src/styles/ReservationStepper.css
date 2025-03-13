@@ -1,0 +1,56 @@
+/* Estilos del stepper personalizado */
+.reservation-stepper {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .stepper-header {
+    position: relative;
+  }
+  
+  .stepper-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .step-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .step-circle.active {
+    background: #0d6efd;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  .step-title {
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  .step-content {
+    min-height: 300px;
+    padding: 1rem;
+  }
+  
+  .stepper-buttons {
+    border-top: 1px solid #dee2e6;
+    padding-top: 1.5rem;
+  }

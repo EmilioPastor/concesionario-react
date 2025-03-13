@@ -1,0 +1,26 @@
+/* src/styles/Reservation.css */
+.reservation-container {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 2rem;
+  }
+  
+  .step-content {
+    min-height: 400px;
+  }
+  
+  .card-element {
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+  }
+  
+  .card-element:hover {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .detail-item {
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 0.5rem;
+  }

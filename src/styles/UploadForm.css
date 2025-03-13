@@ -1,0 +1,10 @@
+.upload-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .upload-form h2 {
+    color: #1a2a4f;
+    border-bottom: 3px solid #ecc94b;
+    padding-bottom: 0.5rem;
+  }
