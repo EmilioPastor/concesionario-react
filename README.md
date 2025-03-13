@@ -68,8 +68,8 @@
 - Despliegue en Producción:
 - Configurar CI/CD con GitHub Actions.
 ## 7. Demo en Vivo
-- URL de la Aplicación: https://tudominio.com
-- Repositorio GitHub: https://github.com/tuusuario/concesionario
+- URL de la Aplicación: https://concesionario-react.vercel.app/
+- Repositorio GitHub: https://github.com/EmilioPastor/concesionario-react
 
 
 
